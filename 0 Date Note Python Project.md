@@ -1,7 +1,7 @@
 # Kanban
 [1 Daily Note Python Project Kanban](1%20Daily%20Note%20Python%20Project%20Kanban.md)
 
-# Sub Project
+# Program Project
 [연도 폴더에 날짜 노트 만드는 프로젝트](연도%20폴더에%20날짜%20노트%20만드는%20프로젝트.md)
 
 # Note
