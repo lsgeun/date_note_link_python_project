@@ -1,5 +1,5 @@
 # Kanban
-[1 Daily Note Python Project Kanban](1%20Daily%20Note%20Python%20Project%20Kanban.md)
+[1 Daily Note Python Project 코딩 Kanban](1%20Daily%20Note%20Python%20Project%20코딩%20Kanban.md)
 
 # Program Project
 [연도 폴더에 날짜 노트 만드는 프로젝트](연도%20폴더에%20날짜%20노트%20만드는%20프로젝트.md)
@@ -29,5 +29,16 @@ TABLE file.mday as 수정일, file.cday as 생성일, file.size as "파일 크�
 WHERE
 	file.folder = this.file.folder
 	AND file.name != this.file.name
+	AND !regexmatch(".* - (웹 클립|유튜브)$", file.name)
+SORT file.mday DESC
+```
+
+# Layer 0
+```dataview
+TABLE file.mday as 수정일, file.cday as 생성일, file.size as "파일 크기"
+WHERE
+	file.folder = this.file.folder
+	AND file.name != this.file.name
+	AND regexmatch(".* - (웹 클립|유튜브)$", file.name)
 SORT file.mday DESC
 ```
