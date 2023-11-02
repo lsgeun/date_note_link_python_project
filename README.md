@@ -1,2 +1,2 @@
 # Note
-[0 Date Note Python Project](0%20Date%20Note%20Python%20Project.md) 참고하면 된다.
+[0 date_note_link_python_project](0%20date_note_link_python_project.md) 참고하면 된다.
